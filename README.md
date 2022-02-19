@@ -22,10 +22,12 @@ let amortized_Loan = new Amortized_Loan(loan_amount, period, interest_rate).get_
 console.table(amortized_Loan)
 ```
 
-#### Test via commandline (provided API-KEY)
+### Test via commandline
 ```js
 deno run --allow-net "https://deno.land/x/loan_calculator@v1.0.0/test.ts"
 ```
+### Output
+![alt text](/output_img.png)
 
 
 ## Thank you for the helpful modules that were used in this module!
